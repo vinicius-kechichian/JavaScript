@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(63, 63, 63); 
+    color:white;
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center; /* alinhamento de texto */
+}
+
+section {
+    background: white; /* fundo */
+    color:black;
+    border-radius: 15px; /* borda */
+    padding: 10px;      /* espaçamento interno*/
+    width: 500px;
+    margin: auto; /* centralização*/
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.63); /* estilo de borda */
+}
+
+footer {
+    text-align: center; /* alinhamento de texto */
+    font-style: italic; /* estilo da fonte */
+}
+
+#foto, img {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
